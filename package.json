@@ -1,0 +1,16 @@
+{
+  "name": "smtp-email-checker",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "smtp-channel": "^0.2.3"
+  }
+}
