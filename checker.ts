@@ -2,6 +2,9 @@ import { SMTPChannel } from 'smtp-channel';
 import dns from 'dns';
 
 export class EmailChecker {
+    from: any;
+    to: any;
+    domain: any;
     /**
      * @param {string} from Email of the address to be used for "FROM". Message is not sent, so it will be transparent for the end-user, but it is required
      * @param {string} to Email of the address to be checked

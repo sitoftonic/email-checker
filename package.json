@@ -3,14 +3,17 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./index.js"
+    "start": "nodemon ./index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "smtp-channel": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18"
   }
 }
